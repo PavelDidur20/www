@@ -16,6 +16,14 @@ $arUrlRewrite=array (
     'PATH' => '/desktop_app/router.php',
     'SORT' => 100,
   ),
+  10 => 
+  array (
+    'CONDITION' => '#^/kabinet-prodavtsa/moi-obyavleniya/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/kabinet-prodavtsa/moi-obyavleniya/index.php',
+    'SORT' => 100,
+  ),
   4 => 
   array (
     'CONDITION' => '#^/online/(/?)([^/]*)#',
@@ -24,15 +32,15 @@ $arUrlRewrite=array (
     'PATH' => '/desktop_app/router.php',
     'SORT' => 100,
   ),
-  0 => 
+  9 => 
   array (
-    'CONDITION' => '#^/services/#',
+    'CONDITION' => '#^/obyavleniya/#',
     'RULE' => '',
-    'ID' => 'bitrix:catalog',
-    'PATH' => '/services/index.php',
+    'ID' => 'bitrix:news',
+    'PATH' => '/obyavleniya/index.php',
     'SORT' => 100,
   ),
-  1 => 
+  7 => 
   array (
     'CONDITION' => '#^/products/#',
     'RULE' => '',
@@ -40,7 +48,15 @@ $arUrlRewrite=array (
     'PATH' => '/products/index.php',
     'SORT' => 100,
   ),
-  2 => 
+  8 => 
+  array (
+    'CONDITION' => '#^/services/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/services/index.php',
+    'SORT' => 100,
+  ),
+  6 => 
   array (
     'CONDITION' => '#^/news/#',
     'RULE' => '',

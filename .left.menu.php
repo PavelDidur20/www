@@ -16,7 +16,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"О сервисе", 
-		"/o-servise/", 
+		"/o-servise/index.php", 
 		Array(), 
 		Array(), 
 		"" 
