@@ -2,7 +2,7 @@
 $aMenuLinks = Array(
 	Array(
 		"Избранное ", 
-		"/kabinet-pokupatelya/izbrannoe/", 
+		"/kabinet-pokupatelya/izbrannoe/index.php", 
 		Array(), 
 		Array(), 
 		"" 
